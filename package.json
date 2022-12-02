@@ -1,0 +1,48 @@
+{
+  "name": "intern-project-management-be",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quangnle/intern-project-management-be.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quangnle/intern-project-management-be/issues"
+  },
+  "homepage": "https://github.com/quangnle/intern-project-management-be#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.0",
+    "formidable": "^2.0.1",
+    "fs": "^0.0.1-security",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "payload-validator": "^1.0.4",
+    "streamifier": "^0.1.1"
+  },
+  "_moduleAliases": {
+    "@src": "src"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0"
+  }
+}
